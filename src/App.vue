@@ -2,6 +2,8 @@
   <div id="app">
     <img src="./assets/logo.png">
     <HelloWorld/>
+    <router-link to="/home">Home</router-link>
+    <router-view></router-view>
   </div>
 </template>
 

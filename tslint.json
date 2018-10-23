@@ -2,5 +2,9 @@
   "extends": "tslint-config-standard",
   "globals": {
     "require": true
+  },
+  "rules": {
+    "no-unused-expression": false,
+    "whitespace": false
   }
 }
